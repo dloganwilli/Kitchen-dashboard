@@ -26,3 +26,40 @@ A fullscreen kitchen assistant built with Python and Tkinter for Raspberry Pi. T
    ```bash
    git clone https://github.com/dloganwilli/kitchen-dashboard.git
    cd kitchen-dashboard
+   ```
+
+2. (Optional) Set up environment variables or config files for email alerts.
+
+3. Run the dashboard:
+   ```bash
+   python3 main.py
+   ```
+
+## Project Structure
+
+```
+kitchen-dashboard/
+├── ui/
+│   ├── clock.py
+│   ├── dashboard.py
+│   ├── keyboard.py
+│   └── ...
+├── data/
+│   └── recipes.db
+├── setup_db.py
+├── main.py
+├── .gitignore
+└── README.md
+```
+
+## To-Do / Future Improvements
+
+- Finalize voice input functionality
+- Improve touchscreen interface design and usability
+- Add cloud syncing or export for recipes and shopping list
+- Add a screensaver-style animated idle screen
+
+## Author
+
+Logan Williamson  
+[GitHub](https://github.com/dloganwilli)
